@@ -1,0 +1,170 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Wake up 2.0 Final Beta]
+Icon1="Wake up 2.0.exe"
+Title1=Wake up 2.0 Final Beta
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\wksetup
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+TIPOFDAY.txt=D:\VBProgs\WakeUp2.0Final\TIPOFDAY.txt
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINNT\system32\msdxm.ocx=
+C:\WINDOWS\SYSTEM\msdxm.ocx=
+C:\Program Files\Wake up 2.0 Final Beta\MSCOMCT2.OCX=
+C:\Program Files\Wake up 2.0 Final Beta\MSCOMCTL.OCX=
+C:\Program Files\Wake up 2.0 Final\MSCOMCT2.OCX=
+C:\Program Files\Wake up 2.0 Final\MSCOMCTL.OCX=
+C:\WINDOWS\system32\msdxm.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\MSCAL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+tipofday.txt=
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\winnt\system32\msdxm.ocx=
+c:\windows\system\msdxm.ocx=
+c:\windows\system32\msdxm.ocx=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\VBProgs\WakeUp2.0Final\TIPOFDAY.txt=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSDXM.OCX=No
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\VBProgs\WakeUp2.0Final\Wake up 2.0.exe=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\VBProgs\wakeup2.023-7\Wake up 2.0.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCOMCTL.OCX=$(AppPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(AppPath)
+C:\WINNT\system32\MSCAL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\VB\wakeup2.001-08\Wake up 2.0.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Vb6stkit.dll=$(WinSysPathSysFile)
+D:\VBProgs\WakeUpFinalBetaWebRelease\Wake up 2.0.exe=$(AppPath)
+D:\VBProgs\WakeUpFinalBetaWebRelease\TIPOFDAY.txt=$(AppPath)
+D:\WakeUpFinalBetaWebRelease\Wake up 2.0.exe=$(AppPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\WakeUpFinalBetaWebRelease\TIPOFDAY.txt=$(AppPath)
+D:\VB\WakeUpFinalBetaWebRelease\Wake up 2.0.exe=$(AppPath)
+D:\VB\WakeUpFinalBetaWebRelease\TIPOFDAY.txt=$(AppPath)
+D:\VBProgs\WakeUp2.0Final\Wake up 2.0.exe=$(AppPath)
+D:\VBProgs\WakeUp2.0Final\TIPOFDAY.txt=$(AppPath)
+C:\Program Files\Wake up 2.0 Final Beta\MSCOMCTL.OCX=$(AppPath)
+C:\Program Files\Wake up 2.0 Final Beta\MSCOMCT2.OCX=$(AppPath)
+C:\WINDOWS\Desktop\WakeUp2.0Final\Wake up 2.0.exe=$(AppPath)
+C:\Program Files\Wake up 2.0 Final\MSCOMCTL.OCX=$(AppPath)
+C:\Program Files\Wake up 2.0 Final\MSCOMCT2.OCX=$(AppPath)
+C:\WINDOWS\Desktop\WakeUp2.0Final\TIPOFDAY.TXT=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\VBProgs\wakeup2.023-7\Wake up 2.0.exe=No
+D:\VB\wakeup2.001-08\Wake up 2.0.exe=No
+D:\VBProgs\WakeUpFinalBetaWebRelease\Wake up 2.0.exe=No
+D:\VBProgs\WakeUpFinalBetaWebRelease\TIPOFDAY.txt=No
+D:\WakeUpFinalBetaWebRelease\Wake up 2.0.exe=No
+D:\WakeUpFinalBetaWebRelease\TIPOFDAY.txt=No
+D:\VB\WakeUpFinalBetaWebRelease\Wake up 2.0.exe=No
+D:\VB\WakeUpFinalBetaWebRelease\TIPOFDAY.txt=No
+D:\VBProgs\WakeUp2.0Final\Wake up 2.0.exe=No
+C:\WINNT\system32\MSCOMCTL.OCX=No
+C:\WINNT\system32\MSCOMCT2.OCX=No
+D:\VBProgs\WakeUp2.0Final\TIPOFDAY.txt=No
+C:\Program Files\Wake up 2.0 Final Beta\MSCOMCTL.OCX=No
+C:\Program Files\Wake up 2.0 Final Beta\MSCOMCT2.OCX=No
+C:\WINDOWS\Desktop\WakeUp2.0Final\Wake up 2.0.exe=No
+C:\Program Files\Wake up 2.0 Final\MSCOMCTL.OCX=No
+C:\Program Files\Wake up 2.0 Final\MSCOMCT2.OCX=No
+C:\WINDOWS\Desktop\WakeUp2.0Final\TIPOFDAY.TXT=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Wake up 2.0 Final
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Wake up 2.0 Final
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Wake up 2.0 Final]
+Icon1="Wake up 2.0.exe"
+Title1=Wake up 2.0 Final
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=c:\wksetup
+ProjectFolder=D:\VBProgs\WakeUp2.0Final
+ServerSideCab=
+File1=c:\wksetup\setup.exe
+File2=c:\wksetup\Setup.Lst
+File3=c:\wksetup\Wake up 2.0.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

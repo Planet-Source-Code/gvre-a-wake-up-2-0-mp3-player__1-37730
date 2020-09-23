@@ -1,0 +1,16 @@
+[History]
+B0=WakeUp/frmTip/Form_Load
+B1=WakeUp/frmTip/cmdOK_Click
+B2=WakeUp/frmTip/DisplayCurrentTip
+B3=WakeUp/Form1/Form_Load
+B4=WakeUp/frmTip/chkLoadTipsAtStartup_Click
+B5=WakeUp/ModuleLanguage/Greek
+B6=WakeUp/ModuleLanguage/English
+B7=WakeUp/Form1/CmdStartWake_Click
+B8=WakeUp/ModuleListview/loadsongs
+B9=WakeUp/ModuleListview/loadlist
+B10=WakeUp/Form1/CmdUp_Click
+B11=WakeUp/Form1/CmdDown_Click
+B12=WakeUp/Form1/Toolbar1_ButtonMenuClick
+B13=WakeUp/Form1/Toolbar1_ButtonClick
+B14=WakeUp/Form1/txtwakeMin_LostFocus
