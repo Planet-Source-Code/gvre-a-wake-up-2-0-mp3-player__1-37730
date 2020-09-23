@@ -1,0 +1,10 @@
+You can preview a list by choosing it and then pressing the right mouse button.
+You can add songs by drag drop them.
+You can add songs by double click them on at a time.
+You can add more than one song at a time.
+You can change the language real time.
+You can remove more then one song at a time.
+You can move the main form by pressing the left mouse button on any position on the form.
+You can hear a song by double clicking it.
+You can open the system mixer by double clicking the speaker image.
+You can email me if you find any bug !!!
